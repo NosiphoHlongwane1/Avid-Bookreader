@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #B6465F;
+  --accent-color: #F5A623;
+  --background-color: #FFF4E6;
+  --text-dark: #3D2C2E;
+  --soft-contrast: #E8DFF5;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-dark);
+  font-family: 'Comfortaa', cursive;
+}
+
+h1, h2 {
+  color: #ece9e6;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* General Section Styling */
+section {
+  padding: 100px 0;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #9c263a, #df5505);
+  padding: 120px 0;
+}
+
+.recommended-section {
+  background: url("/media/coverbanner.png") no-repeat center center/cover;
+  padding: 60px 0; /* Adds spacing */
+  color: white; /* Ensures text is readable */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Previous Book Club Section */
+.previous-bookclub {
+  background: linear-gradient(to right, #166145, #a4c078);
+  padding: 80px 0;
+}
+
+/* Footer */
+.footer {
+  background: #116f8b;
+  color: white;
+  padding: 30px 0;
+}
+
+/* Enquire Form */
+.footer form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.calendar-day {
+  cursor: default;
+  transition: background-color 0.2s ease;
+}
+
+.event-day {
+  background-color: #fce7f3; /* light pink */
+  font-weight: bold;
+  color: #9b2c7c;
+  cursor: pointer;
+  border: 2px solid #ec4899;
+  border-radius: 4px;
+}
+
+.event-day:hover {
+  background-color: #fbcfe8;
+}

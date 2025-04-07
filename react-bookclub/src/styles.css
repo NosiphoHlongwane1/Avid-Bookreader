@@ -1,0 +1,92 @@
+
+body {
+    background: linear-gradient(to right, #d84848, #78c278);
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  h1, h2, p {
+    color: #ece9e6;
+  }
+  
+  /* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #9c263a, #df5505);
+  padding: 120px 0;
+}
+
+.recommended-section {
+  padding: 60px 0; /* Adds spacing */
+  color: white; /* Ensures text is readable */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Previous Book Club Section */
+.previous-bookclub {
+  background: linear-gradient(to right, #166145, #a4c078);
+  padding: 80px 0;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(to right, #166145, #a4c078);
+  color: white;
+  padding: 30px 0;
+}
+
+/* Enquire Form */
+.footer form {
+  background: linear-gradient(to right, #166145, #a4c078);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0b2415;
+  border: 2px solid #9c263a;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: #9c263a;
+  font-weight: bold;
+  z-index: 9999;
+  text-align: center;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.custom-modal .modal-content {
+  background-color: #166145;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.custom-modal-header {
+  background-color: #166145;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.custom-modal-body {
+  background-color: #166145;
+  color: #fff;
+}
+
+.calendar-day {
+  cursor: default;
+  transition: background-color 0.2s ease;
+}
+
+.event-day {
+  background-color: #fce7f3; /* light pink */
+  font-weight: bold;
+  color: #9b2c7c;
+  cursor: pointer;
+  border: 2px solid #ec4899;
+  border-radius: 4px;
+}
+
+.event-day:hover {
+  background-color: #9c263a;
+}

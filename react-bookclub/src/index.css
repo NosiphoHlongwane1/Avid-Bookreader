@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #B6465F;
+  --accent-color: #F5A623;
+  --background-color: #FFF4E6;
+  --text-dark: #3D2C2E;
+  --soft-contrast: #E8DFF5;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-dark);
+  font-family: 'Comfortaa', cursive;
+}
+
+h1, h2 {
+  color: #8B5E3B;
+}
